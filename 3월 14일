@@ -133,10 +133,12 @@ result=a%b
 print(a, '%', b, '=',result,"나머지")
 '''
 
-전화번호, 이름을 입력받아 출력:  
-입력한 내용은 이름 "xx", 전화번호"yy"입니다.  
-  
-무게는 입력한 g수 x10원 =산출 금액 입력
+## quiz:
+
+####전화번호, 이름을 입력받아 출력:  
+####입력한 내용은 이름 "xx", 전화번호"yy", 무게 "zz"(g)입니다.
+
+#### 산출 금액은 입력한 무게g수 x 10원 = "vv"원 입니다.
 
 '''
 name=input("이름을 입력하시오 :")
@@ -145,8 +147,10 @@ gram=int(input("무게를 입력하시오 (g단위) :"))
 monny=10
 result1=name
 result2=num
-result3=gram*monny
+result3=gram
+result4=gram*monny
 print("이름 :",result1)
 print("전화번호:",result2)
-print("이 물건의 금액은",result3,"원","입니다.")
+print("무게 :",result3)
+print("이 물건의 금액은",result4,"원","입니다.")
 '''
