@@ -111,3 +111,24 @@ print(a, '*', b, '=',sum3)
 sum4=a/b
 print(a, '÷', b, '=',sum4)
 '''
+
+### input() 함수 이용 계산기
+
+'''
+a= int(input("첫번째 숫자를 입력해주세요: "))
+b= int(input("두번째 숫자를 입력해주세요: "))
+result=a+b
+print(a, '+', b, '=',result,"덧샘")
+result=a-b
+print(a, '-', b, '=',result,"뺄샘")
+result=a*b
+print(a, '*', b, '=',result,"곱샘")
+result=a/b
+print(a, '÷', b, '=',result,"나눗샘")
+result=a**b
+print(a, '^', b, '=',result,"제곱")
+result=a//b
+print(a, '//', b, '=',result,"몫")
+result=a%b
+print(a, '%', b, '=',result,"나머지")
+'''
