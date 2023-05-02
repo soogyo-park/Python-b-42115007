@@ -1,0 +1,109 @@
+for i in range(9,0,-2):
+    print('{:^10}'.format('*'*i))
+    
+for i in range(3,11,2):
+    print('{:^10}'.format('*'*i))
+for i in range(9,0,-2):
+    print('{:^10}'.format('*'*i))
+    
+for i in range(3,11,2):
+    print('{:^10}'.format('*'*i))
+for i in range(9,0,-2):
+    print('{:^10}'.format('*'*i))
+    
+for i in range(3,11,2):
+    print('{:^10}'.format('*'*i))
+def hello():
+    "헬로 함수 설명을 적을 수 있음"
+    print("안녕하세요")
+    print("파이썬 함수 연습입니다.")
+    
+hello()
+help(hello)
+c=0
+def add(a,b):
+    "두 개의 변수를 받아 더하는 함수"
+    global c
+    c = a+b
+    # print(c)#pass
+    
+def addr(a,b):
+    return a+b
+
+add(10,20)
+print(c)
+print("*********************")
+y = addr(10,20)
+print(y)
+
+def func():
+    b=10 #지역변수
+    print(b)
+    
+func()
+print(b) #error
+a=10
+def func():
+    b=20
+    return a+b
+x= func()
+print(x)
+def func(a,b=20): #(a=10,b) error
+    print(a+b)
+
+func(10,30)
+from tkinter import * #윈도우 창 연습
+
+window = Tk()
+#
+window.title("윈도우 창 연습")
+window.geometry("800x600")
+window.resizable(width=TRUE,height=TRUE)
+window.mainloop()
+from tkinter import * #레이블 연습
+
+window = Tk()
+
+window.title("레이블 연습")
+label1=Label(window, text="안녕하세요.")
+label2=Label(window, text="so good Python",font=("궁서체",30),fg="red")
+label3=Label(window, text="Label test",bg="yellow",width=20,height=5,anchor=S)
+
+label1.pack()
+label2.pack()
+label3.pack()
+
+window.mainloop
+from tkinter import * #이미지 삽입
+
+window = Tk()
+window.title("이미지 삽입")
+photo=PhotoImage(file="D:\\imege\\SS.png")
+photo2=PhotoImage(file="D:\\imege\\SS.png")
+label1=Label(window, image=photo)
+label2=Label(window, image=photo2)
+label1.pack(side=RIGHT)
+label2.pack(side=LEFT)
+
+window.mainloop()
+from tkinter import * #버튼
+
+tk= Tk()
+button1=Button(tk, text="파이썬 종료", fg="blue",comman=quit)
+button1.pack()
+
+tk.mainloop()
+from tkinter import *
+from tkinter import messagebox
+
+def myFucn():
+    messagebox.showinfo("짱구야!","오호이~")
+    
+tk=Tk()
+photo= PhotoImage(file="D:\\imege\\SS.png")
+
+#button1=Button(tk, text="파이썬 종료", fg="blue",comman=quit)
+button1=Button(tk, image=photo,command=myFucn)
+button1.pack()
+
+tk.mainloop()
