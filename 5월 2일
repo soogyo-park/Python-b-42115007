@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>HTML Basic</head>
+    <body>
+        <h1>해딩 1</h1>
+        <h2>해딩 2</h2>
+        <h3>해딩 3</h3>
+        <h4>해딩 4</h4>
+        <h5>해딩 5</h5>
+        <h6>해딩 6</h6>
+        <p>선언 !DOCTYPE는 문서 유형을 나타내며 브라우저가 작동되도록 한다 <br>줄 바꿈 연습</p>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>브라우저 열기</h1>
+    <p>가나다라</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Imege</title>
+</head>
+<body>
+    <h1>Imege</h1>
+    <img src="imege\GS.png" width="2">
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>사이트 링크</h1>
+    <a href="https://www.youtube.com">유튜브</a>
+    <p><b>안녕하세요</b><i>반갑습니다</i></p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+</head>
+<body>
+    <h1 style="color:blue;">BULE TEXT</h1>
+    <h2 style="color:aqua;">AQUA TEXT</h2>
+    <p style="background-color: aquamarine;">CSS color속성은 HTML요소와 텍스트 색상을 정의합니다.</p>
+    <!--
+    <p style="font-size: 200%; font-family:'Courier New', Courier, monospace;">문장 크기 200%</p>
+    -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB color</title>
+</head>
+<body>
+    <h1 style="background-color: rgb(255,0,0);">rgb(255,0,0)</h1>
+    <h1 style="background-color: rgb(255,255,0);">rgb(255,255,0)</h1>
+    <h1 style="background-color: rgb(0,255,0);">rgb(0,255,0)</h1>
+    <h1 style="background-color: rgb(0,255,255);">rgb(0,255,255)</h1>
+    <h1 style="background-color: rgb(0,0,255);">rgb(0,0,255)</h1>
+    <h1 style="background-color: rgb(255,255,255);">rgb(255,255,255)</h1>
+    <h1 style="background-color: rgb(0,0,0);">rgb(0,0,0)</h1>
+    <h1 style="background-color: #ee82ee;">#ee82ee</h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>순서없는 리스트</title>
+</head>
+<body>
+    <h2>좋아하는 과일</h2>
+    <ul type="circle">
+        <li>사과</li>
+        <li>바나나</li>
+        <li>딸기</li>
+        <li>귤</li>
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>순서있는 목록</title>
+</head>
+<body>
+    <h2>가수목록</h2>
+    <ol type="A">
+        <li>유재석</li>
+        <li>하현우</li>
+        <li>신해철</li>
+        <li>퀸</li>
+    </ol>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        body {background-color: black;}
+        h1 {color: aqua;}
+        h2 {color: cyan;}
+        p {color:yellow;}
+    </style>
+</head>
+<body>
+    <h1>hay</h1>
+    <h2>good</h2>
+    <p>외부 스타일 시트는 많은 HTML파일을 정의한다.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td{
+            background-color: #96d496;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>회사</th>
+            <th>이름</th>
+            <th>국가</th>
+        </tr>
+        <tr>
+            <td>삼성</td>
+            <td>홍길동</td>
+            <td>대한민국</td>
+        </tr>
+        <tr>
+            <td>3M</td>
+            <td>프란시스코 창</td>
+            <td>맥시코</td>
+        </tr>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클래스 속성</title>
+    <style>
+        .city{
+            background-color: aqua;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;           
+        }
+        .main{
+            text-align: center;
+        }
+        #myhead{
+            background-color: lightskyblue;
+            color: black;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="city main">
+        <h2>서울</h2>
+        <p>서울은 한국의 수도</p>
+    </div>
+    <div class="city main">
+        <h2>북경</h2>
+        <p>북경은 중국의 수도</p>
+    </div>
+    <div id="myhead">
+        <h2>파리</h2>
+        <p>파리는 프랑스의 수도</p>
+    </div>
+    
+</body>
+</html>
