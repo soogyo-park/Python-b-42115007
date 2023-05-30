@@ -1,0 +1,90 @@
+pipimport pygame
+import random
+
+# 게임 화면 크기
+WIDTH = 800
+
+HEIGHT = 600
+
+
+# 색상 정의
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+
+# 버튼 크기
+BUTTON_SIZE = 100
+
+# 게임 초기화
+pygame.init()
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+clock = pygame.time.Clock()
+
+
+pygame.init()
+# 점수 초기화
+score = 0
+
+# 버튼 클래스
+class Button:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+       
+def draw(self):
+        pygame.draw.rect(screen, RED, (self.x, self.y, BUTTON_SIZE, BUTTON_SIZE))
+
+       
+def check_click(self, mouse_pos):
+    if self.x <= mouse_pos[0] <= self.x + BUTTON_SIZE and self.y <= mouse_pos[1] <= self.y + BUTTON_SIZE:
+        return True
+        return False
+
+# 버튼 생성
+def create_button():
+    x = random.randint(0, WIDTH - BUTTON_SIZE)
+    y = random.randint(0, HEIGHT - BUTTON_SIZE)
+    button = Button(x, y)
+    return button
+
+# 게임 루프
+running = True
+button = create_button()  
+
+
+
+
+               
+# 화면 지우기
+screen.fill(WHITE)
+
+
+
+   
+# 버튼 그리기
+button.draw()
+
+    
+
+
+   
+# 점수 표시
+font = pygame.font.Font(None, 36)
+text = font.render("Score: " + str(score), True, RED)
+screen.blit(text, (10, 10))
+
+    
+
+   
+
+
+# 화면 업데이트
+# pygame.display.flip()
+
+
+   
+# 초당 프레임 수 제한
+clock.tick(60)
+
+# 게임 종료
+pygame.quit()
